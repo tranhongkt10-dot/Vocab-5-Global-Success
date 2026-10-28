@@ -1,0 +1,7 @@
+{
+  "name": "Vocab 5 – Global Success",
+  "description": "Ứng dụng học từ vựng tiếng Anh lớp 5 Global Success dành cho học sinh tiểu học với bài tập chính tả, luyện nghe, trắc nghiệm và trợ lý AI thông minh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

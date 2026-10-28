@@ -1,0 +1,192 @@
+{
+  "theory": [
+    {
+      "id": "s_es",
+      "title": "Phát âm đuôi -s / -es",
+      "rules": [
+        {
+          "sound": "/s/",
+          "rule": "Phát âm là /s/ khi từ tận cùng bằng các phụ âm vô thanh: /p/, /k/, /f/, /t/, /θ/. (Mẹo nhớ vui: 'Thời Phong Kiến Phương Tây')",
+          "examples": "books, cats, cups, laughs, stops, walks, hats"
+        },
+        {
+          "sound": "/ɪz/",
+          "rule": "Phát âm là /ɪz/ khi từ tận cùng bằng các âm gió /s/, /z/, /ʃ/, /tʃ/, /ʒ/, /dʒ/ (thường là các chữ cái tận cùng: s, ss, ch, sh, x, z, ge, ce).",
+          "examples": "watches, boxes, classes, dishes, oranges, buses, sandwiches"
+        },
+        {
+          "sound": "/z/",
+          "rule": "Phát âm là /z/ khi từ tận cùng bằng các nguyên âm và phụ âm hữu thanh còn lại (như /b/, /d/, /g/, /m/, /n/, /l/, /r/, /v/, v.v.).",
+          "examples": "pens, dogs, rooms, toys, trees, tables, beds, apples"
+        }
+      ]
+    },
+    {
+      "id": "ed",
+      "title": "Phát âm đuôi -ed (Thì quá khứ đơn)",
+      "rules": [
+        {
+          "sound": "/ɪd/",
+          "rule": "Phát âm là /ɪd/ khi động từ tận cùng bằng âm /t/ hoặc /d/. (Mẹo nhớ vui: 'Tiền Đô' hay 'Trà Đá')",
+          "examples": "wanted, needed, visited, started, painted, collected"
+        },
+        {
+          "sound": "/t/",
+          "rule": "Phát âm là /t/ khi động từ tận cùng bằng các phụ âm vô thanh: /p/, /k/, /f/, /s/, /ʃ/, /tʃ/. (Mẹo nhớ: 'Chính Phủ Phát Sách Không Thiếu')",
+          "examples": "watched, cooked, laughed, washed, stopped, helped, danced"
+        },
+        {
+          "sound": "/d/",
+          "rule": "Phát âm là /d/ khi động từ tận cùng bằng các nguyên âm hoặc phụ âm hữu thanh còn lại.",
+          "examples": "played, cleaned, loved, stayed, opened, lived, listened"
+        }
+      ]
+    },
+    {
+      "id": "word_stress",
+      "title": "Trọng âm của từ (Word Stress)",
+      "rules": [
+        {
+          "sound": "Trọng âm rơi vào âm tiết thứ 1 (O o)",
+          "rule": "Hầu hết danh từ và tính từ có 2 âm tiết thường có trọng âm rơi vào âm tiết đầu tiên.",
+          "examples": "'happy, 'student, 'teacher, 'country, 'village, 'weather, 'summer"
+        },
+        {
+          "sound": "Trọng âm rơi vào âm tiết thứ 2 (o O)",
+          "rule": "Hầu hết động từ có 2 âm tiết thường có trọng âm rơi vào âm tiết thứ hai.",
+          "examples": "en'joy, de'cide, re'lax, pre'fer, in'vite, re'turn"
+        }
+      ]
+    },
+    {
+      "id": "sentence_stress",
+      "title": "Trọng âm câu & Ngữ điệu (Sentence Stress & Intonation)",
+      "rules": [
+        {
+          "sound": "Từ mang nội dung (Content words)",
+          "rule": "Trong câu tiếng Anh, ta thường nhấn giọng vào các từ quan trọng (danh từ, động từ chính, tính từ, từ để hỏi như What/Where/Who).",
+          "examples": "I **live** in a **peaceful** **village**. | What are you **reading**?"
+        },
+        {
+          "sound": "Ngữ điệu câu (Intonation)",
+          "rule": "Câu hỏi Yes/No lên giọng ở cuối câu (↗). Câu hỏi có từ để hỏi Wh- và câu trần thuật xuống giọng ở cuối câu (↘).",
+          "examples": "Do you like sports? ↗ | Where does she live? ↘"
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "es_001",
+      "type": "es_quiz",
+      "question": "Trong từ 'watches', đuôi -es được phát âm là gì?",
+      "options": ["/s/", "/z/", "/ɪz/"],
+      "answer": "/ɪz/",
+      "explain": "Từ 'watch' kết thúc bằng âm 'ch' (/tʃ/ - âm gió) nên đuôi -es phát âm là /ɪz/."
+    },
+    {
+      "id": "es_002",
+      "type": "es_quiz",
+      "question": "Trong từ 'books', đuôi -s được phát âm là gì?",
+      "options": ["/s/", "/z/", "/ɪz/"],
+      "answer": "/s/",
+      "explain": "Từ 'book' kết thúc bằng âm /k/ (âm vô thanh) nên đuôi -s phát âm là /s/."
+    },
+    {
+      "id": "es_003",
+      "type": "es_quiz",
+      "question": "Trong từ 'pens', đuôi -s được phát âm là gì?",
+      "options": ["/s/", "/z/", "/ɪz/"],
+      "answer": "/z/",
+      "explain": "Từ 'pen' kết thúc bằng âm /n/ (âm hữu thanh) nên đuôi -s phát âm là /z/."
+    },
+    {
+      "id": "es_004",
+      "type": "es_quiz",
+      "question": "Trong từ 'boxes', đuôi -es được phát âm là gì?",
+      "options": ["/s/", "/z/", "/ɪz/"],
+      "answer": "/ɪz/",
+      "explain": "Từ 'box' kết thúc bằng chữ 'x' (âm /ks/ - âm gió) nên đuôi -es phát âm là /ɪz/."
+    },
+    {
+      "id": "es_005",
+      "type": "es_quiz",
+      "question": "Trong từ 'cats', đuôi -s được phát âm là gì?",
+      "options": ["/s/", "/z/", "/ɪz/"],
+      "answer": "/s/",
+      "explain": "Từ 'cat' kết thúc bằng âm /t/ (âm vô thanh) nên đuôi -s phát âm là /s/."
+    },
+    {
+      "id": "ed_001",
+      "type": "ed_quiz",
+      "question": "Trong từ 'wanted', đuôi -ed được phát âm là gì?",
+      "options": ["/t/", "/d/", "/ɪd/"],
+      "answer": "/ɪd/",
+      "explain": "Động từ 'want' kết thúc bằng âm /t/ ('tiền') nên đuôi -ed phát âm là /ɪd/."
+    },
+    {
+      "id": "ed_002",
+      "type": "ed_quiz",
+      "question": "Trong từ 'watched', đuôi -ed được phát âm là gì?",
+      "options": ["/t/", "/d/", "/ɪd/"],
+      "answer": "/t/",
+      "explain": "Động từ 'watch' kết thúc bằng âm vô thanh /tʃ/ nên đuôi -ed phát âm là /t/."
+    },
+    {
+      "id": "ed_003",
+      "type": "ed_quiz",
+      "question": "Trong từ 'played', đuôi -ed được phát âm là gì?",
+      "options": ["/t/", "/d/", "/ɪd/"],
+      "answer": "/d/",
+      "explain": "Động từ 'play' kết thúc bằng nguyên âm hữu thanh /eɪ/ nên đuôi -ed phát âm là /d/."
+    },
+    {
+      "id": "ed_004",
+      "type": "ed_quiz",
+      "question": "Trong từ 'needed', đuôi -ed được phát âm là gì?",
+      "options": ["/t/", "/d/", "/ɪd/"],
+      "answer": "/ɪd/",
+      "explain": "Động từ 'need' kết thúc bằng âm /d/ ('đô') nên đuôi -ed phát âm là /ɪd/."
+    },
+    {
+      "id": "ed_005",
+      "type": "ed_quiz",
+      "question": "Trong từ 'cooked', đuôi -ed được phát âm là gì?",
+      "options": ["/t/", "/d/", "/ɪd/"],
+      "answer": "/t/",
+      "explain": "Động từ 'cook' kết thúc bằng âm /k/ (vô thanh) nên đuôi -ed phát âm là /t/."
+    },
+    {
+      "id": "stress_001",
+      "type": "stress_quiz",
+      "question": "Trọng âm của từ 'teacher' (danh từ 2 âm tiết) rơi vào âm tiết thứ mấy?",
+      "options": ["Âm tiết 1 ('teacher)", "Âm tiết 2 (tea'cher)"],
+      "answer": "Âm tiết 1 ('teacher)",
+      "explain": "Hầu hết danh từ có 2 âm tiết nhấn trọng âm vào âm tiết đầu tiên: 'teacher."
+    },
+    {
+      "id": "stress_002",
+      "type": "stress_quiz",
+      "question": "Trọng âm của từ 'enjoy' (động từ 2 âm tiết) rơi vào âm tiết thứ mấy?",
+      "options": ["Âm tiết 1 ('enjoy)", "Âm tiết 2 (en'joy)"],
+      "answer": "Âm tiết 2 (en'joy)",
+      "explain": "Hầu hết động từ có 2 âm tiết nhấn trọng âm vào âm tiết thứ hai: en'joy."
+    },
+    {
+      "id": "stress_003",
+      "type": "stress_quiz",
+      "question": "Trọng âm của từ 'village' (danh từ 2 âm tiết) rơi vào âm tiết thứ mấy?",
+      "options": ["Âm tiết 1 ('village)", "Âm tiết 2 (vil'lage)"],
+      "answer": "Âm tiết 1 ('village)",
+      "explain": "Danh từ 2 âm tiết 'village' có trọng âm rơi vào âm thứ nhất: 'village."
+    },
+    {
+      "id": "stress_004",
+      "type": "stress_quiz",
+      "question": "Trọng âm của từ 'decide' (động từ 2 âm tiết) rơi vào âm tiết thứ mấy?",
+      "options": ["Âm tiết 1 ('decide)", "Âm tiết 2 (de'cide)"],
+      "answer": "Âm tiết 2 (de'cide)",
+      "explain": "Động từ 2 âm tiết 'decide' có trọng âm rơi vào âm thứ hai: de'cide."
+    }
+  ]
+}

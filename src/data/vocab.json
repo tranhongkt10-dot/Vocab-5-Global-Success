@@ -1,0 +1,354 @@
+{
+  "vocab": [
+    {
+      "id": "GS5_001",
+      "unit": 1,
+      "word": "above",
+      "pos": "pre",
+      "ipa": "/əˈbʌv/",
+      "meaning_vi": "ở trên",
+      "example_en": "The picture is above the bed.",
+      "example_vi": "Bức tranh ở trên giường."
+    },
+    {
+      "id": "GS5_002",
+      "unit": 1,
+      "word": "address",
+      "pos": "n",
+      "ipa": "/əˈdres/",
+      "meaning_vi": "địa chỉ",
+      "example_en": "What is your address?",
+      "example_vi": "Địa chỉ của bạn là gì?"
+    },
+    {
+      "id": "GS5_003",
+      "unit": 1,
+      "word": "hometown",
+      "pos": "n",
+      "ipa": "/ˈhəʊmtaʊn/",
+      "meaning_vi": "quê hương",
+      "example_en": "My hometown is Da Nang.",
+      "example_vi": "Quê hương của mình là Đà Nẵng."
+    },
+    {
+      "id": "GS5_004",
+      "unit": 1,
+      "word": "tower",
+      "pos": "n",
+      "ipa": "/ˈtaʊər/",
+      "meaning_vi": "tòa tháp",
+      "example_en": "I live on the tenth floor of a tower.",
+      "example_vi": "Mình sống ở tầng 10 của một tòa tháp."
+    },
+    {
+      "id": "GS5_005",
+      "unit": 2,
+      "word": "flat",
+      "pos": "n",
+      "ipa": "/flæt/",
+      "meaning_vi": "căn hộ",
+      "example_en": "They live in a modern flat.",
+      "example_vi": "Họ sống trong một căn hộ hiện đại."
+    },
+    {
+      "id": "GS5_006",
+      "unit": 2,
+      "word": "mountain",
+      "pos": "n",
+      "ipa": "/ˈmaʊntɪn/",
+      "meaning_vi": "núi, vùng núi",
+      "example_en": "My grandparents live in the mountains.",
+      "example_vi": "Ông bà mình sống ở vùng núi."
+    },
+    {
+      "id": "GS5_007",
+      "unit": 2,
+      "word": "village",
+      "pos": "n",
+      "ipa": "/ˈvɪlɪdʒ/",
+      "meaning_vi": "ngôi làng",
+      "example_en": "It is a quiet and beautiful village.",
+      "example_vi": "Đó là một ngôi làng yên tĩnh và xinh đẹp."
+    },
+    {
+      "id": "GS5_008",
+      "unit": 3,
+      "word": "country",
+      "pos": "n",
+      "ipa": "/ˈkʌntri/",
+      "meaning_vi": "đất nước",
+      "example_en": "Vietnam is a wonderful country.",
+      "example_vi": "Việt Nam là một đất nước tuyệt vời."
+    },
+    {
+      "id": "GS5_009",
+      "unit": 3,
+      "word": "friendly",
+      "pos": "adj",
+      "ipa": "/ˈfrendli/",
+      "meaning_vi": "thân thiện",
+      "example_en": "Our new classmate is very friendly.",
+      "example_vi": "Bạn cùng lớp mới của chúng mình rất thân thiện."
+    },
+    {
+      "id": "GS5_010",
+      "unit": 4,
+      "word": "surf",
+      "pos": "v",
+      "ipa": "/sɜːf/",
+      "meaning_vi": "lướt (mạng, sóng)",
+      "example_en": "I often surf the Internet in the evening.",
+      "example_vi": "Mình thường lướt Internet vào buổi tối."
+    },
+    {
+      "id": "GS5_011",
+      "unit": 4,
+      "word": "draw",
+      "pos": "v",
+      "ipa": "/drɔː/",
+      "meaning_vi": "vẽ",
+      "example_en": "She likes to draw pictures of animals.",
+      "example_vi": "Bạn ấy thích vẽ tranh các con vật."
+    },
+    {
+      "id": "GS5_012",
+      "unit": 5,
+      "word": "pilot",
+      "pos": "n",
+      "ipa": "/ˈpaɪlət/",
+      "meaning_vi": "phi công",
+      "example_en": "He wants to be a pilot in the future.",
+      "example_vi": "Cậu ấy muốn trở thành một phi công trong tương lai."
+    },
+    {
+      "id": "GS5_013",
+      "unit": 5,
+      "word": "architect",
+      "pos": "n",
+      "ipa": "/ˈɑːkɪtekt/",
+      "meaning_vi": "kiến trúc sư",
+      "example_en": "An architect designs beautiful houses.",
+      "example_vi": "Một kiến trúc sư thiết kế những ngôi nhà đẹp."
+    },
+    {
+      "id": "GS5_014",
+      "unit": 6,
+      "word": "library",
+      "pos": "n",
+      "ipa": "/ˈlaɪbrəri/",
+      "meaning_vi": "thư viện",
+      "example_en": "We read storybooks in the library.",
+      "example_vi": "Chúng mình đọc truyện ở thư viện."
+    },
+    {
+      "id": "GS5_015",
+      "unit": 6,
+      "word": "computer",
+      "pos": "n",
+      "ipa": "/kəmˈpjuːtər/",
+      "meaning_vi": "máy tính",
+      "example_en": "There is a computer room on the second floor.",
+      "example_vi": "Có một phòng máy tính ở tầng hai."
+    },
+    {
+      "id": "GS5_016",
+      "unit": 7,
+      "word": "project",
+      "pos": "n",
+      "ipa": "/ˈprɒdʒekt/",
+      "meaning_vi": "dự án, bài tập lớn",
+      "example_en": "We are doing an English project together.",
+      "example_vi": "Chúng mình đang cùng nhau làm một dự án tiếng Anh."
+    },
+    {
+      "id": "GS5_017",
+      "unit": 7,
+      "word": "presentation",
+      "pos": "n",
+      "ipa": "/ˌpreznˈteɪʃn/",
+      "meaning_vi": "bài thuyết trình",
+      "example_en": "Nam gives a presentation about his family.",
+      "example_vi": "Nam thuyết trình về gia đình của bạn ấy."
+    },
+    {
+      "id": "GS5_018",
+      "unit": 8,
+      "word": "clever",
+      "pos": "adj",
+      "ipa": "/ˈklevər/",
+      "meaning_vi": "thông minh",
+      "example_en": "The fox in the fairy tale is clever.",
+      "example_vi": "Chú cáo trong truyện cổ tích rất thông minh."
+    },
+    {
+      "id": "GS5_019",
+      "unit": 8,
+      "word": "generous",
+      "pos": "adj",
+      "ipa": "/ˈdʒenərəs/",
+      "meaning_vi": "hào phóng, tốt bụng",
+      "example_en": "The elder brother was not generous.",
+      "example_vi": "Người anh trai đã không hào phóng."
+    },
+    {
+      "id": "GS5_020",
+      "unit": 9,
+      "word": "celebrate",
+      "pos": "v",
+      "ipa": "/ˈselɪbreɪt/",
+      "meaning_vi": "kỷ niệm, ăn mừng",
+      "example_en": "We celebrate Teachers' Day on November 20th.",
+      "example_vi": "Chúng mình kỷ niệm Ngày Nhà giáo vào ngày 20 tháng 11."
+    },
+    {
+      "id": "GS5_021",
+      "unit": 9,
+      "word": "flower",
+      "pos": "n",
+      "ipa": "/ˈflaʊər/",
+      "meaning_vi": "bông hoa",
+      "example_en": "The students give colorful flowers to teachers.",
+      "example_vi": "Học sinh tặng những bông hoa rực rỡ cho thầy cô."
+    },
+    {
+      "id": "GS5_022",
+      "unit": 10,
+      "word": "competition",
+      "pos": "n",
+      "ipa": "/ˌkɒmpəˈtɪʃn/",
+      "meaning_vi": "cuộc thi tài",
+      "example_en": "He took part in the singing competition.",
+      "example_vi": "Bạn ấy đã tham gia cuộc thi hát."
+    },
+    {
+      "id": "GS5_023",
+      "unit": 10,
+      "word": "medal",
+      "pos": "n",
+      "ipa": "/ˈmedl/",
+      "meaning_vi": "huy chương",
+      "example_en": "She won a gold medal in running.",
+      "example_vi": "Cô ấy đã giành được một huy chương vàng chạy bộ."
+    },
+    {
+      "id": "GS5_024",
+      "unit": 11,
+      "word": "headache",
+      "pos": "n",
+      "ipa": "/ˈhedeɪk/",
+      "meaning_vi": "cơn đau đầu",
+      "example_en": "I have a bad headache today.",
+      "example_vi": "Hôm nay mình bị đau đầu dữ dội."
+    },
+    {
+      "id": "GS5_025",
+      "unit": 11,
+      "word": "dentist",
+      "pos": "n",
+      "ipa": "/ˈdentɪst/",
+      "meaning_vi": "nha sĩ",
+      "example_en": "You should go to the dentist for toothache.",
+      "example_vi": "Bạn nên đi khám nha sĩ khi bị đau răng."
+    },
+    {
+      "id": "GS5_026",
+      "unit": 12,
+      "word": "helmet",
+      "pos": "n",
+      "ipa": "/ˈhelmɪt/",
+      "meaning_vi": "mũ bảo hiểm",
+      "example_en": "Always wear a helmet when riding a bike.",
+      "example_vi": "Luôn đội mũ bảo hiểm khi đi xe đạp."
+    },
+    {
+      "id": "GS5_027",
+      "unit": 12,
+      "word": "careful",
+      "pos": "adj",
+      "ipa": "/ˈkeəfl/",
+      "meaning_vi": "cẩn thận",
+      "example_en": "Be careful with the sharp knife!",
+      "example_vi": "Hãy cẩn thận với con dao sắc!"
+    },
+    {
+      "id": "GS5_028",
+      "unit": 13,
+      "word": "karate",
+      "pos": "n",
+      "ipa": "/kəˈrɑːti/",
+      "meaning_vi": "môn võ karate",
+      "example_en": "Mai does karate twice a week.",
+      "example_vi": "Mai tập karate hai lần một tuần."
+    },
+    {
+      "id": "GS5_029",
+      "unit": 14,
+      "word": "watermelon",
+      "pos": "n",
+      "ipa": "/ˈwɔːtəmelən/",
+      "meaning_vi": "quả dưa hấu",
+      "example_en": "Mai An Tiem discovered delicious watermelons.",
+      "example_vi": "Mai An Tiêm đã phát hiện ra những quả dưa hấu thơm ngon."
+    },
+    {
+      "id": "GS5_030",
+      "unit": 15,
+      "word": "astronaut",
+      "pos": "n",
+      "ipa": "/ˈæstrənɔːt/",
+      "meaning_vi": "phi hành gia",
+      "example_en": "An astronaut travels into outer space.",
+      "example_vi": "Một phi hành gia du hành vào không gian vũ trụ."
+    },
+    {
+      "id": "GS5_031",
+      "unit": 16,
+      "word": "opposite",
+      "pos": "pre",
+      "ipa": "/ˈɒpəzɪt/",
+      "meaning_vi": "đối diện",
+      "example_en": "The bakery is opposite the bookshop.",
+      "example_vi": "Tiệm bánh đối diện với hiệu sách."
+    },
+    {
+      "id": "GS5_032",
+      "unit": 17,
+      "word": "delicious",
+      "pos": "adj",
+      "ipa": "/dɪˈlɪʃəs/",
+      "meaning_vi": "thơm ngon",
+      "example_en": "Vietnamese pho is very delicious.",
+      "example_vi": "Phở Việt Nam rất thơm ngon."
+    },
+    {
+      "id": "GS5_033",
+      "unit": 18,
+      "word": "forecast",
+      "pos": "n",
+      "ipa": "/ˈfɔːkɑːst/",
+      "meaning_vi": "dự báo thời tiết",
+      "example_en": "Let's watch the weather forecast on TV.",
+      "example_vi": "Chúng mình cùng xem dự báo thời tiết trên TV nhé."
+    },
+    {
+      "id": "GS5_034",
+      "unit": 19,
+      "word": "pagoda",
+      "pos": "n",
+      "ipa": "/pəˈɡəʊdə/",
+      "meaning_vi": "ngôi chùa",
+      "example_en": "Tran Quoc Pagoda is on an island in West Lake.",
+      "example_vi": "Chùa Trấn Quốc nằm trên một hòn đảo ở Hồ Tây."
+    },
+    {
+      "id": "GS5_035",
+      "unit": 20,
+      "word": "peaceful",
+      "pos": "adj",
+      "ipa": "/ˈpiːsfl/",
+      "meaning_vi": "yên bình, thanh bình",
+      "example_en": "Life in the countryside is very peaceful.",
+      "example_vi": "Cuộc sống ở vùng quê rất thanh bình."
+    }
+  ]
+}
