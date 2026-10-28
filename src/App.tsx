@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import vocabData from './data/vocab.json';
 import pronunciationData from './data/pronunciation.json';
 import { VocabItem, PronunciationTheory, PronunciationQuiz, UserProgress, ActiveNavTab } from './types';
@@ -26,7 +27,19 @@ const defaultProgress: UserProgress = {
 };
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<ActiveNavTab>('vocab');
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const path = location.pathname.replace(/^\//, '').toLowerCase();
+  const activeTab: ActiveNavTab =
+    path === 'spelling' || path === 'listening' || path === 'meaning' || path === 'pronunciation'
+      ? path
+      : 'vocab';
+
+  const handleSelectTab = (tab: ActiveNavTab) => {
+    navigate(tab === 'vocab' ? '/' : `/${tab}`);
+  };
+
   const [words] = useState<VocabItem[]>(vocabData.vocab);
   const [theories] = useState<PronunciationTheory[]>(pronunciationData.theory);
   const [quizzes] = useState<PronunciationQuiz[]>(pronunciationData.quizzes as PronunciationQuiz[]);
@@ -109,7 +122,7 @@ export default function App() {
       {/* Top Bar Header */}
       <Header
         activeTab={activeTab}
-        onSelectTab={setActiveTab}
+        onSelectTab={handleSelectTab}
         progress={progress}
         totalWords={words.length}
       />

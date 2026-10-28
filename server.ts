@@ -104,8 +104,15 @@ async function startServer() {
       server: { middlewareMode: true },
       appType: 'spa',
     });
+    app.get('/', (_req, res) => {
+      res.redirect('/Vocab-5-Global-Success/');
+    });
     app.use(vite.middlewares);
   } else {
+    app.get('/', (_req, res) => {
+      res.redirect('/Vocab-5-Global-Success/');
+    });
+    app.use('/Vocab-5-Global-Success', express.static(path.resolve(__dirname, 'dist')));
     app.use(express.static(path.resolve(__dirname, 'dist')));
     app.get('*', (_req, res) => {
       res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
